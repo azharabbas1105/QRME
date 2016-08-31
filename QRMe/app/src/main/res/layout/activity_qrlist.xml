@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.QRListActivity">
+
+    <include
+        android:id="@+id/toolbar_qr_list"
+        layout="@layout/toolbar_qr_list" />
+    <ListView
+        android:id="@+id/lv_qr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_qr_list"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_above="@+id/az"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btn_scan_qr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_pressed"
+            android:text="Scan QR"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/btn_create_qr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_pressed"
+            android:text="Create QR"
+            android:textColor="@android:color/white" />
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/az"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btn_upload_vidio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_pressed"
+            android:text="Upload Video"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_recoding"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_pressed"
+            android:text="Make Video"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

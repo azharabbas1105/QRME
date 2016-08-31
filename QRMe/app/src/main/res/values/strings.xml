@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">QRMe</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="hello">Hello, </string>
+    <string name="login_instructions">Login to twiter</string>
+    <string name="share_instructions">Enter share message</string>
+    <string name="btn_login">Login to Twitter</string>
+    <string name="btn_share">Share</string>
+
+    <string name="capture_video">Capture video</string>
+    <string name="facebook_app_id">234202803622041</string>
+    <string name="linkedin_client_id">77gy1fwmwrd183</string>
+    <string name="linkedin_client_secret">IrseXUOCcO3sGIXo</string>
+
+    <string name="twitter_consumer_key">BCvUqb4aMJtaRISu1UUzrdS7H</string>
+    <string name="twitter_consumer_secret">vxiRB9B7DSA43eQl94XyFIaalaThRGLollCxW6tYCYgT87yNPX</string>
+    <string name="twitter_oauth_verifier">oauth_verifier</string>
+    <string name="twitter_callback">http://javatechig.android.app</string>
+
+    <string name="status_nocapture">nothing captured yet</string>
+    <string name="status_capturesuccess">Capture successful</string>
+    <string name="status_capturecancelled">Capture cancelled by user</string>
+    <string name="status_capturefailed">Capture failed</string>
+
+    <string name="filename_hint">e.g. myVideo.mp4</string>
+    <string name="duration_hint">maximum duration</string>
+    <string name="duration_unit">sec</string>
+    <string name="filesize_hint">maximum filesize</string>
+    <string name="filesize_unit">Mb</string>
+
+    <string name="advanced">advanced</string>
+    <string name="github">show on GitHub</string>
+    <string name="github_url">https://github.com/jmolsmobile/LandscapeVideoCamera</string>
+
+
+    <string name="nav_item_contacts">CONTACTS</string>
+    <string name="nav_item_qr_history">QR HISTORY</string>
+    <string name="nav_item_profile">PROFILE</string>
+    <string name="nav_item_settings">SETTINGS</string>
+    <!--<string name="nav_item_section">Section</string>-->
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_contacts</item>
+        <item>@string/nav_item_qr_history</item>
+        <item>@string/nav_item_profile</item>
+        <item>@string/nav_item_settings</item>
+        <!--<item>@string/nav_item_section</item>-->
+    </string-array>
+
+    <string name="title_contacts">Contacts</string>
+    <string name="title_history">QR History</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_settings">Settings</string>
+
+
+
+    <string name="google_api_key">AIzaSyDtzab0J3WBD_4GMLwm6Uhl2p2Yhu6RrXM</string>
+    <string name="google_client_id">23906450641-0mbighvisneltorrrfttco2st084kc86.apps.googleusercontent.com</string>
+
+
+
+
+
+</resources>

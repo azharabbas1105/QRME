@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ingentive.qrme.activity.ContactsActivity">
+
+    <include
+        android:id="@+id/toolbar_contacts"
+        layout="@layout/toolbar_contacts" />
+
+    <ExpandableListView
+        android:id="@+id/expand_list_users"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:groupIndicator="@drawable/group_indicator"
+        android:layout_below="@+id/toolbar_contacts" />
+
+</RelativeLayout>

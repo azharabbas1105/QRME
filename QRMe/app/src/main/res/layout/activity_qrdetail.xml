@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.QRDetail">
+
+    <include
+        android:id="@+id/toolbar_qr_detail"
+        layout="@layout/toolbar_qr_detail" />
+
+    <TextView
+        android:layout_below="@+id/toolbar_qr_detail"
+        android:id="@+id/tv_qr_detail"
+        android:layout_marginLeft="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:layout_centerVertical="true"
+        />
+
+</RelativeLayout>

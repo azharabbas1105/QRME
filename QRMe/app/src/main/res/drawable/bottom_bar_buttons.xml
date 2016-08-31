@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!--<selector xmlns:android="http://schemas.android.com/apk/res/android">--><!--<item android:state_focused="true" android:state_pressed="true">--><!--<shape>--><!--<gradient android:angle="270" android:endColor="#6f7d86" android:startColor="#6f7d86" />--><!--<corners android:radius="7dp" />--><!--</shape>--><!--</item>--><!--<item>--><!--<shape>--><!--<gradient android:angle="270" android:endColor="#283943" android:startColor="#283943" />--><!--<corners android:radius="7dp" />--><!--</shape>-->
+
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">--><!--<item android:state_pressed="true">--><!--<shape>--><!--<gradient android:angle="270" android:endColor="#6f7d86" android:startColor="#6f7d86" />--><!--<corners android:radius="7dp" />--><!--</shape>--><!--</item>--><!--<item android:state_focused="true">--><!--<shape>--><!--<gradient android:angle="270" android:endColor="#6f7d86" android:startColor="#6f7d86" />--><!--<corners android:radius="7dp" />--><!--</shape>--><!--</item>--><!--<item android:state_hovered="true">--><!--<shape>--><!--<gradient android:angle="270" android:endColor="#6f7d86" android:startColor="#6f7d86" />--><!--<corners android:radius="7dp" />--><!--</shape>--><!--</item>--><!--<item>--><!--<shape>--><!--<gradient android:angle="270" android:endColor="#283943" android:startColor="#283943" />--><!--<corners android:radius="7dp" />--><!--</shape>--><!--</item>--><!--</selector>-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape>
+            <gradient android:angle="270" android:endColor="#9FA8DA" android:startColor="@color/colorAccent" />
+            <corners android:radius="7dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <gradient android:angle="270" android:endColor="#9FA8DA" android:startColor="@color/colorAccent" />
+            <corners android:radius="7dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient android:angle="270" android:endColor="#00000000" android:startColor="#00000000" />
+            <corners android:radius="7dp" />
+        </shape>
+    </item>
+</selector>

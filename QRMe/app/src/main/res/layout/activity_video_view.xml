@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_contact"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/btn_contact"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/contacts_btn_selector"
+        android:textSize="18sp"
+        android:text="CONTACT"
+        android:textColor="@color/colorWhite" />
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/bottom_buttons_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="2dp"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="2">-->
+
+        <!--<Button-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_marginRight="2dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/button_pressed"-->
+            <!--android:text="STOP"-->
+            <!--android:textColor="@color/colorWhite" />-->
+
+        <!--<Button-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_marginLeft="2dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/button_pressed"-->
+            <!--android:text="CONTACT"-->
+            <!--android:textColor="@color/colorWhite" />-->
+    <!--</LinearLayout>-->
+    <!--<RelativeLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent">-->
+
+    <!--<VideoView-->
+    <!--android:id="@+id/video_view"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_above="@+id/bottom_buttons_layout"-->
+    <!--android:layout_gravity="center" />-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/bottom_buttons_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_marginBottom="2dp"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:layout_marginRight="5dp"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:weightSum="2">-->
+
+    <!--<Button-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:layout_marginRight="2dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/button_pressed"-->
+    <!--android:text="STOP"-->
+    <!--android:textColor="@color/colorWhite" />-->
+
+    <!--<Button-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:layout_marginLeft="2dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/button_pressed"-->
+    <!--android:text="CONTACT"-->
+    <!--android:textColor="@color/colorWhite" />-->
+    <!--</LinearLayout>-->
+    <!--</RelativeLayout>-->
+
+</RelativeLayout>

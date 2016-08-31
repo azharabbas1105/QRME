@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.UploadActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/button_selectvideo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_pressed"
+            android:text="Select Video"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/uploadButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/button_pressed"
+            android:visibility="gone"
+            android:text="Upload" />
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/messageText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageView1"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <com.facebook.share.widget.ShareButton
+        android:id="@+id/shareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_margin="5dp" />
+    <ImageButton
+        android:id="@+id/btnTwitterAuthorize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:visibility="gone"
+        android:background="@drawable/twitter"
+        android:text="Share" />
+    <ImageButton
+        android:id="@+id/btnLinkedin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/linkdin"
+        android:text="Share" />
+
+    <RelativeLayout
+        android:id="@+id/login_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/login_instructions"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0080B4" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#0080B4"
+            android:text="@string/btn_login"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/share_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="@string/hello"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0080B4" />
+
+        <EditText
+            android:id="@+id/share_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#cceaf3"
+            android:hint="@string/share_instructions"
+            android:inputType="textMultiLine"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#0080B4"
+            android:text="@string/btn_share"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</LinearLayout>

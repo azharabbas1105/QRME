@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ingentive.qrme.activity.QRHistoryActivity">
+
+
+    <include
+        android:id="@+id/toolbar_qr_history"
+        layout="@layout/toolbar_qr_history" />
+
+    <ListView
+        android:layout_below="@id/toolbar_qr_history"
+        android:id="@+id/listview_qr_history"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</RelativeLayout>
